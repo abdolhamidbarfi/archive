@@ -1,19 +1,17 @@
+"use client"
+import withClassComponent from "@/DesignPatterns/HOC/withClassComponent";
+import withFcComponent from "@/DesignPatterns/HOC/withFcComponent";
 import { NextPage } from "next";
-import Link from "next/link";
 
 
-const HOC: NextPage = () => {
+const HigherOrderComponent: NextPage = () => {
 
     return (
-
-        <>
-            <h1 className="text-2xl">Higher Order Components (HOC)</h1>
-            <ul>
-                <li><Link href="/design-patterns/hoc/loading">Loading Component</Link></li>
-            </ul>
-        </>
-
+        <div className="flex justify-center h-lvh items-center" >
+            <h1 className="text-2xl ">Higher Order Components (HOC)</h1>
+        </div>
     )
 }
 
-export default HOC
+// export default withFcComponent(HigherOrderComponent)
+export default withFcComponent(HigherOrderComponent)
