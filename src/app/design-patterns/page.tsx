@@ -6,12 +6,14 @@ const DesignPatterns: NextPage = () => {
 
     return (
 
-        <>
-            <h1 className="text-2xl">Design Patterns</h1>
-            <ul>
-                <li><Link href="/design-patterns/hoc">Higher Order Components (HOC)</Link></li>
+        <div className="m-5">
+            <h1 className="text-3xl mb-3">Design Patterns</h1>
+            <ul className="mx-5">
+                <li ><Link className="hover:text-blue-800" href="/design-patterns/hoc">Higher Order Components (HOC)</Link></li>
+                <li ><Link className="hover:text-blue-800" href="/design-patterns/hook">Define Hooks</Link></li>
+
             </ul>
-        </>
+        </div>
     )
 
 }

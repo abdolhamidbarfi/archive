@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <ul>
-        <li>1. <Link href="/design-patterns">Design Patterns</Link></li>
+        <li>1. <Link className="hover:text-blue-800" href="/design-patterns">Design Patterns</Link></li>
       </ul>
     </>
   );
