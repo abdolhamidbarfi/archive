@@ -11,7 +11,7 @@ const DesignPatterns: NextPage = () => {
             <ul className="mx-5">
                 <li ><Link className="hover:text-blue-800" href="/design-patterns/hoc">Higher Order Components (HOC)</Link></li>
                 <li ><Link className="hover:text-blue-800" href="/design-patterns/hook">Define Hooks</Link></li>
-
+                <li ><Link className="hover:text-blue-800" href="/design-patterns/render-props">Render Props</Link></li>
             </ul>
         </div>
     )
