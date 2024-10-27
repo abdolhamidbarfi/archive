@@ -13,6 +13,8 @@ const DesignPatterns: NextPage = () => {
                 <li ><Link className="hover:text-blue-800" href="/design-patterns/hook">Define Hooks</Link></li>
                 <li ><Link className="hover:text-blue-800" href="/design-patterns/render-props">Render Props</Link></li>
                 <li ><Link className="hover:text-blue-800" href="/design-patterns/observer">Observer</Link></li>
+                <li ><Link className="hover:text-blue-800" href="/design-patterns/compound">Compound</Link></li>
+
             </ul>
         </div>
     )
