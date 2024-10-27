@@ -14,14 +14,14 @@ function toastify(data: any) {
     toast(data)
 }
 
-observable.add(logger)
-observable.add(toastify)
 
 const Observer: NextPage = () => {
     const { count, increment, decrement } = useCounter(0)
 
     useEffect(() => {
-       
+        observable.add(logger)
+        observable.add(toastify)
+
         return () => {
             observable.remove(logger)
             observable.remove(toastify)
